@@ -1,4 +1,3 @@
-# Alfonso Murphy
 # ISM 1
 # 1/9/17
 

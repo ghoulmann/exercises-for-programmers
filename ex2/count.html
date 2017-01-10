@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This script counts the characters in a string. Click the button to enter a string.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="prompt"></p>
+<p id="count"></p>
+<script>
+
+
+function myFunction() {
+    var userstring = prompt("Please enter a string", "Hello, world!");
+    if (userstring != null) {
+        var n = userstring.length;
+        document.getElementById("count").innerHTML = "Your string, " + userstring + ", has " + n + " characters.";
+    }
+}
+</script>
+
+</body>
+</html>
