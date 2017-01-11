@@ -1,7 +1,7 @@
 # ISM 1
 # 1/9/17
 # ruby
-# Mr. Goldman, Alfonso
+# count characters (ex2)
 
 puts "What is the input string? "
 thestring = gets

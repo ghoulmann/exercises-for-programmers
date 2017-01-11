@@ -1,4 +1,6 @@
-# Problem 1 
+# Exercise 1 
+# ISM 2
+# ruby
 
 puts "What is your name? "
 name = gets
