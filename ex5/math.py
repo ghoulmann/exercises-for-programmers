@@ -20,10 +20,22 @@ def output(first, second, sign, name):
     print(first + " " + sign + " " + second + " = " + name)
     
 # use function to produce suggested output
-output(first, second, "+", addition)
-output(first, second, "-", subtraction)
-output(first, second, "*", times)
-output(first, second, "/", div)
+addition = output(first, second, "+", addition)
+subtraction = output(first, second, "-", subtraction)
+times = output(first, second, "*", times)
+div = output(first, second, "/", div)
+
+out = """
+%s
+%s
+%s
+%s
+""" % (addition, subtraction, times, div)
+
+print out 
+
+
+
 
 
 
